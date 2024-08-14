@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card hover opacity change</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+
+        }
+        div{
+            height: 200px;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center;*/
+            align-items: center; 
+            padding: 0.5em ;
+            background:rgb(240, 182, 5) ;
+            border-radius: 20px;
+        }
+        div img{
+            height: 150px;
+            width: 250px;
+            border-radius: 10px;
+        }
+        div p span{
+            font-weight: 600;
+        }
+        div:hover{
+            opacity: 60%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/course-thumbnail/78625b7f-b08f-4d79-be7c-f3bfeacfd103.jpeg" alt="Full Stack Development courese">
+        <p><span>Course Name:</span>PW Skills full stack web development</p>
+    </div>
+</body>
+</html>
